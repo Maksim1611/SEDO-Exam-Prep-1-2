@@ -1,11 +1,11 @@
-name: .NET
+name: Build and Test the app
 
 on:
   push:
     branches: [ "develop", "feature" ]
 
 jobs:
-  build:
+  build_test:
 
     runs-on: ubuntu-latest
 
